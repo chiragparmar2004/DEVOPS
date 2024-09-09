@@ -84,6 +84,10 @@ app.get("/rest/getAllUsers", (req, res) => {
 app.get("/rest", (req, res) => {
   res.send("SENDING FROM REST");
 });
+
+app.get("/hello", (req, res) => {
+  res.send("SENDING hello ");
+});
 app.get("/", (req, res) => {
   res.send("WELCOME CONNECTED  Trying");
 });
