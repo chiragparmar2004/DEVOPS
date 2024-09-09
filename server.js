@@ -85,7 +85,7 @@ app.get("/rest", (req, res) => {
   res.send("SENDING FROM REST");
 });
 app.get("/", (req, res) => {
-  res.send("WELCOME CONNECTED ");
+  res.send("WELCOME CONNECTED  Trying");
 });
 
 app.listen(PORT, () => {
